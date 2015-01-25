@@ -1,0 +1,26 @@
+package hello;
+ 
+import webil.ui.*;
+ 
+public class Hello {
+ 
+    final label{*<-*} cl = new label{Client->; Client<-};
+
+    Text[cl, cl]{Client->; Client<-} message;
+    final Panel[cl, cl]{Client->; Client<-} mainPanel;
+ 
+    public Hello{Client->; Client<-}()
+    {
+        message = new Text("Hello World");
+        mainPanel = RootPanel.getRootPanel(Client);
+
+        if(mainPanel != null) {
+            mainPanel.addChild(cl, cl, message);
+        }
+    }
+ 
+    public static void main{Client->; Client<-}()
+    {
+        final Hello h = new Hello();
+    }
+}

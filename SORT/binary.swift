@@ -1,10 +1,11 @@
 func binarySearch<T: Comparable>(xs: [T], x: T) -> Int? {
-  var recurse: ((Int, Int) -> Int?)!
-  recurse = {(low, high) in switch (low + high) / 2 {
-    case _ where high < low: return nil
-    case let mid where xs[mid] > x: return recurse(low, mid - 1)
-    case let mid where xs[mid] < x: return recurse(mid + 1, high)
-    case let mid: return mid
-  }}
-  return recurse(0, xs.count - 1)
+  var (low, high) = (0, xs.count - 1)
+  while low <= high {
+    switch (low + high) / 2 {
+      case let mid where xs[mid] > x: high = mid - 1
+      case let mid where xs[mid] < x: low = mid + 1
+      case let mid: return mid
+    }
+  }
+  return nil
 }

@@ -7,3 +7,7 @@ https://developer.apple.com/swift/
 Try it in your browser:
 
 http://www.runswiftlang.com/
+
+
+Apple CareKit
+https://github.com/carekit-apple/CareKit/blob/master/CONTRIBUTING.md

@@ -9,5 +9,7 @@ Try it in your browser:
 http://www.runswiftlang.com/
 
 
-Apple CareKit
-https://github.com/carekit-apple/CareKit/blob/master/CONTRIBUTING.md
+[Apple CareKit](https://github.com/carekit-apple/CareKit/blob/master/CONTRIBUTING.md)
+
+
+[Bender – a Deep Learning framework for iOS](https://github.com/xmartlabs/Bender)

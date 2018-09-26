@@ -23,3 +23,4 @@ http://www.runswiftlang.com/
 
 [Apple AR Kit](https://developer.apple.com/arkit/)
 
+[Swift 5](https://swift.org/blog/5-0-release-process/)

@@ -17,6 +17,7 @@ http://www.runswiftlang.com/
 
 [Apple CareKit](https://github.com/carekit-apple/CareKit/blob/master/CONTRIBUTING.md)
 
+[Apple watch app increased resting heart rate alert](https://github.com/unrelatedlabs/infection-alert)
 
 [Bender – a Deep Learning framework for iOS](https://github.com/xmartlabs/Bender)
 

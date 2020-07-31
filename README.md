@@ -4,9 +4,7 @@ https://wiki.openstack.org/wiki/SwiftInstall
 
 https://developer.apple.com/swift/
 
-Try it in your browser:
-
-http://www.runswiftlang.com/
+T[ry it in your browser](http://www.runswiftlang.com/)
 
 [Swift evolution](https://apple.github.io/swift-evolution/)
 
@@ -27,3 +25,7 @@ http://www.runswiftlang.com/
 [Swift 5](https://swift.org/blog/5-0-release-process/)
 
 [Plugins](https://www.swiftbysundell.com/articles/making-swift-code-extensible-through-plugins/)
+
+### Interesting Projects
+
++ [Breathe](https://github.com/filipeisho/breathe/) - peripheral breath trainer

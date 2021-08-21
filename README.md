@@ -29,3 +29,4 @@ T[ry it in your browser](http://www.runswiftlang.com/)
 ### Interesting Projects
 
 + [Breathe](https://github.com/filipeisho/breathe/) - peripheral breath trainer
++ [LISP in Swift](https://github.com/codr7/swifties-repl)
